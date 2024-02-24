@@ -1,0 +1,18 @@
+[
+{
+    "usuario":"Cristian",
+    "clave":"12345",
+    "mail":"cris@cris.com"
+},
+{
+    "usuario":"Enzo",
+    "clave":"54321",
+    "mail":"enzo@enzo.com"
+},
+{
+    "usuario":"valeria",
+    "clave":"456789",
+    "mail":"vale@vale.com"
+}
+
+]

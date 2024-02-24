@@ -1,0 +1,16 @@
+### venv ###
+# Virtualenv
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+*.venv
+env_aut
+env_donbosco_pom
+*.idea
+pip-selfcheck.json
+__pycache__
