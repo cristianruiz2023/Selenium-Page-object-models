@@ -45,9 +45,9 @@ escribir_id(driver,"domicilio","calle cualquiera 5050")
 driver.find_element(By.ID, "updateButton").click()
 
 espera_explicita = WebDriverWait(driver,3)
-#espera explicita de 3 seg a que aparezca la alerta
+# espera explicita de 3 seg a que aparezca la alerta
 alerta = espera_explicita.until(EC.alert_is_present())#EC=espera explicita
-alerta = driver.switch_to.alert #hace foco en la ventana del alerta
+alerta = driver.switch_to.alert # hace foco en la ventana del alerta
 
 assert alerta.text == "Los datos se actualizaron correctamente"
 # aserción del mensaje del alerta
