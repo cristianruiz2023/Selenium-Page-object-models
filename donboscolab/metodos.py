@@ -16,7 +16,7 @@ def click_id(driver,elemento):
 def visitar_web(driver,url):
     driver.get(url)
 
-#def espera_implicita(driver,segundos):
+# def espera_implicita(driver,segundos):
  #   driver.implicitly_wait(segundos)
 def espera_implicita(driver):
     driver.implicitly_wait(4)
